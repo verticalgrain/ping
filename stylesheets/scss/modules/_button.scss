@@ -1,0 +1,21 @@
+.button {
+	width: 180px;
+	height: 40px;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	@include border-radius(7px);
+	background: #009933;
+	text-decoration: none;
+	font-weight: bold;
+	border: none;
+	padding: 0;
+	@include transition-duration(0.5s);
+	outline: none;
+	&--on {
+		background: #009933;
+	}
+	&--off {
+		background: #cc3333;
+	}
+}
