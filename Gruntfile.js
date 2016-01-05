@@ -32,7 +32,9 @@ module.exports = function(grunt) {
           'js/dist/application.js': [
             'js/src/app.js',
             'js/src/vendor/jquery-2.0.0.min.js',
-            'js/src/modules/nearbus.js'
+            'js/src/vendor/nearapi_v05.js',
+            'js/src/modules/nearbus.js',
+
           ]
         }
       }
